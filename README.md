@@ -25,7 +25,7 @@ The lab includes:
 
 - Active Directory Replication
 
----
+
 
 # 🖥️ Lab Environment
 
@@ -47,7 +47,7 @@ The lab includes:
 | Domain Name | AD Domain | ravikumar.online |
 
 
----
+
 
 
 # ⚙️ Step 1 — Install Active Directory Domain Services
@@ -86,7 +86,7 @@ Set:
 - DSRM Password
 - Restart after installation
 
----
+
 
 # 🌐 Step 2 — Configure Static IP Address
 
@@ -101,8 +101,6 @@ Subnet Mask: 255.0.0.0
 
 Gateway    : 10.0.0.1
 
-
----
 
 # 📡 Step 3 — Configure DHCP Server
 
@@ -119,7 +117,6 @@ Install:
 
 - DHCP Server
 
----
 
 ## Create DHCP Scope
 
@@ -136,14 +133,10 @@ Subnet     : 255.0.0.0
 Gateway    : 10.0.0.1
 
 
-
-
-
 Domain Name: ravikumar.online
 
 
 Authorize DHCP after installation.
-
 
 
 # 💻 Step 4 — Join Client PC to Domain
@@ -159,7 +152,10 @@ System Properties > Change Settings > Change
 
 
 Select:
+
+
 - Domain
+  
 
 Enter:
 
@@ -169,9 +165,9 @@ ravikumar.online
 
 Provide domain administrator credentials.
 
+
 Restart PC after successful join.
 
----
 
 # 👥 Step 5 — Create Active Directory Users
 
@@ -180,8 +176,6 @@ Open:
 
 
 Server Manager > Tools > Active Directory Users and Computers
-
-
 
 
 ## Example Organizational Units
