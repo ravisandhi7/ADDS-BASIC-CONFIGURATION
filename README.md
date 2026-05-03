@@ -2,11 +2,15 @@
 
 # Active Directory Lab Setup
 
+
 ## 📌 Project Overview
+
 
 This project demonstrates a complete basic Active Directory Domain Services (AD DS) lab setup using Windows Server and Windows client machines.
 
+
 The lab includes:
+
 
 - Active Directory Domain Services (AD DS)
 
@@ -48,9 +52,6 @@ The lab includes:
 | Domain Name | AD Domain | ravikumar.online |
 
 
-
-
-
 # ⚙️ Step 1 — Install Active Directory Domain Services
 
 
@@ -71,6 +72,7 @@ Server Manager
 
 ### Promote Server to Domain Controller
 
+
 Select:
 
 
@@ -84,12 +86,16 @@ ravikumar.online
 
 
 Set:
+
+
 - DSRM Password
+
+  
 - Restart after installation
 
 
-
 ## 🌐 Step 2 — Configure Static IP Address
+
 
 ## ROOTDC Configuration
 
@@ -100,7 +106,37 @@ IP Address : 10.0.0.1
 Subnet Mask: 255.0.0.0
 
 
-# 📡 Step 3 — Configure DHCP Server
+# 💻 Step 3 — Join Client PC to Domain
+
+
+## Join Domain
+
+Open:
+
+
+System Properties > Change Settings > Change
+
+
+Select:
+
+
+- Domain
+  
+
+Enter:
+
+
+ravikumar.online
+
+
+Provide domain administrator credentials.
+
+
+Restart PC after successful join.
+
+
+# 📡 Step 4 — Configure DHCP Server
+
 
 ## Install DHCP Role
 
@@ -133,6 +169,7 @@ Domain Name: ravikumar.online
 
 Authorize DHCP after installation.
 
+
 ![IPCONFIG](screenshots/dhcp/SCOPE_FOR_DHCP.png)
 
 
@@ -143,37 +180,6 @@ Authorize DHCP after installation.
 
 
 ![IPCONFIG](screenshots/dhcp/RESERVED_IP_TO_PC1.png)
-
-
-
-# 💻 Step 4 — Join Client PC to Domain
-
-
-
-## Join Domain
-
-Open:
-
-
-System Properties > Change Settings > Change
-
-
-Select:
-
-
-- Domain
-  
-
-Enter:
-
-
-ravikumar.online
-
-
-Provide domain administrator credentials.
-
-
-Restart PC after successful join.
 
 
 # 👥 Step 5 — Create Active Directory Users
