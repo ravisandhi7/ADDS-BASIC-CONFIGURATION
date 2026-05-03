@@ -275,7 +275,6 @@ Add a domain controller to an existing domain
 ![IPCONFIG](screenshots/adc_to_rootdc/PREREQUISITE_CHECK_PASS.png)
 
 
-![IPCONFIG](screenshots/adc_to_rootdc/PREREQUISITE_CHECK_PASS.png)
 
 
 ![IPCONFIG](screenshots/adc_to_rootdc/SERVER2_BEFORE_JOINING_ROOTDC.png)
