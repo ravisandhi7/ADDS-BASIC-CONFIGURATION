@@ -136,6 +136,8 @@ Domain Name: ravikumar.online
 
 Authorize DHCP after installation.
 
+![IPCONFIG](screenshots/basic/IPCONFIG_ALL.png)
+
 
 # 💻 Step 4 — Join Client PC to Domain
 
