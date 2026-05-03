@@ -257,34 +257,34 @@ Select:
 Add a domain controller to an existing domain
 ```
 
-![IPCONFIG](screenshots/basic/SERVER2_IN_WORKGROUP.png)
+![IPCONFIG](screenshots/adc_to_rootdc/SERVER2_IN_WORKGROUP.png)
 
-![IPCONFIG](screenshots/basic/ADDING_SERVER2_TO_ROOTDC.png)
-
-
-![IPCONFIG](screenshots/basic/USERNAME_AND_PASSWORD_FOR_ADDING_ADC_TO_ROOTDC.png)
+![IPCONFIG](screenshots/adc_to_rootdc/ADDING_SERVER2_TO_ROOTDC.png)
 
 
-![IPCONFIG](screenshots/basic/ENTERING_DSRM_PASSWORD.png)
+![IPCONFIG](screenshots/adc_to_rootdc/USERNAME_AND_PASSWORD_FOR_ADDING_ADC_TO_ROOTDC.png)
+
+
+![IPCONFIG](screenshots/adc_to_rootdc/ENTERING_DSRM_PASSWORD.png)
 
 
 
-![IPCONFIG](screenshots/basic/LOCATION_OF_NTDS_SYSVOL.png)
+![IPCONFIG](screenshots/adc_to_rootdc/LOCATION_OF_NTDS_SYSVOL.png)
 
 
-![IPCONFIG](screenshots/basic/PREREQUISITE_CHECK_PASS.png)
+![IPCONFIG](screenshots/adc_to_rootdc/PREREQUISITE_CHECK_PASS.png)
 
 
-![IPCONFIG](screenshots/basic/PREREQUISITE_CHECK_PASS.png)
+![IPCONFIG](screenshots/adc_to_rootdc/PREREQUISITE_CHECK_PASS.png)
 
 
-![IPCONFIG](screenshots/basic/SERVER2_BEFORE_JOINING_ROOTDC.png)
+![IPCONFIG](screenshots/adc_to_rootdc/SERVER2_BEFORE_JOINING_ROOTDC.png)
 
 
-![IPCONFIG](screenshots/basic/SERVER2_ADDED_TO_DOMAIN.png)
+![IPCONFIG](screenshots/adc_to_rootdc/SERVER2_ADDED_TO_DOMAIN.png)
 
 
-![IPCONFIG](screenshots/basic/SERVER2_JOINED_ROOTDC.png)
+![IPCONFIG](screenshots/adc_to_rootdc/SERVER2_JOINED_ROOTDC.png)
 
 
 
