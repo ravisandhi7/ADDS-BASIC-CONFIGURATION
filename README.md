@@ -191,24 +191,8 @@ Open:
 Server Manager > Tools > Active Directory Users and Computers
 
 
-## Example Organizational Units
+![IPCONFIG](screenshots/users/USER_CREATED_IN_ROOTDC.png)
 
-
-HR
-IT
-Finance
-
----
-
-## Example Users
-
-| Name | Username |
-|---|---|
-| John Doe | jdoe |
-| Alice Wonder | awonder |
-| Chris Green | cgreen |
-
----
 
 # 🏢 Step 6 — Create Additional Domain Controller (ADC)
 
