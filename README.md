@@ -139,6 +139,9 @@ Authorize DHCP after installation.
 ![IPCONFIG](screenshots/dhcp/IP_RELEASED_TO_PC1.png)
 
 
+![IPCONFIG](screenshots/dhcp/PING_AFTER_DHCP_IP.png)
+
+
 ![IPCONFIG](screenshots/dhcp/RESERVED_IP_TO_PC1.png)
 
 
