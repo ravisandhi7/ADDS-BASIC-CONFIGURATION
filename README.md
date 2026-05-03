@@ -139,6 +139,13 @@ Authorize DHCP after installation.
 ![IPCONFIG](screenshots/dhcp/SCOPE_FOR_DHCP.png)
 
 
+![IPCONFIG](screenshots/dhcp/IP_RELEASED_TO_PC1.png)
+
+
+![IPCONFIG](screenshots/dhcp/RESERVED_IP_TO_PC1.png)
+
+
+
 # 💻 Step 4 — Join Client PC to Domain
 
 
