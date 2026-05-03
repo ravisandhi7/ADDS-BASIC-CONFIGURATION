@@ -128,9 +128,6 @@ End IP     : 10.0.0.165
 Subnet     : 255.0.0.0
 
 
-Gateway    : 10.0.0.1
-
-
 Domain Name: ravikumar.online
 
 
