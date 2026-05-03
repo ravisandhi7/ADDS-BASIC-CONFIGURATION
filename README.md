@@ -212,14 +212,15 @@ Finance
 
 # 🏢 Step 6 — Create Additional Domain Controller (ADC)
 
+
 ## Configure ADC Static IP
 
 
 IP Address : 10.0.0.2
-Subnet Mask: 255.0.0.0
-Gateway    : 10.0.0.1
 
----
+
+Subnet Mask: 255.0.0.0
+
 
 ## Join ADC to Domain
 
@@ -229,13 +230,17 @@ ravikumar.online
 
 Restart the server.
 
----
 
 # 🔄 Step 7 — Promote ADC to Domain Controller
 
 Install:
+
+
 - Active Directory Domain Services
+
+  
 - DNS Server
+
 
 Select:
 
@@ -245,6 +250,7 @@ Add a domain controller to an existing domain
 
 ![IPCONFIG](screenshots/adc_to_rootdc/SERVER2_IN_WORKGROUP.png)
 
+
 ![IPCONFIG](screenshots/adc_to_rootdc/ADDING_SERVER2_TO_ROOTDC.png)
 
 
@@ -252,6 +258,7 @@ Add a domain controller to an existing domain
 
 
 ![IPCONFIG](screenshots/adc_to_rootdc/ENTERING_DSRM_PASSWORD.png)
+
 
 ![IPCONFIG](screenshots/adc_to_rootdc/REPLICATION_FROM_SERVER1_TO_SERVER2.png)
 
@@ -272,14 +279,19 @@ ravikumar.online
 
 
 Enable:
+
+
 - DNS Server
+
+  
 - Global Catalog (GC)
+
 
 Restart after promotion.
 
----
 
 # ✅ Step 8 — Verify Replication
+
 
 ## Check Replication Summary
 
@@ -293,15 +305,11 @@ repadmin /replsummary
 ![IPCONFIG](screenshots/replication/USER2-REPLICATED_TO_ROOTDC.png)
 
 
----
-
 ## Force Replication
 
 
 repadmin /syncall /AdeP
 
-
----
 
 ## Verify Domain Controllers
 
