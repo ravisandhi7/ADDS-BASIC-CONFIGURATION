@@ -29,6 +29,7 @@ The lab includes:
 
 # 🖥️ Lab Environment
 
+
 | Device | Role | IP Address |
 
 
@@ -88,7 +89,7 @@ Set:
 
 
 
-# 🌐 Step 2 — Configure Static IP Address
+## 🌐 Step 2 — Configure Static IP Address
 
 ## ROOTDC Configuration
 
