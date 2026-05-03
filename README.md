@@ -238,9 +238,6 @@ Install:
 
 - Active Directory Domain Services
 
-  
-- DNS Server
-
 
 Select:
 
