@@ -68,9 +68,6 @@ Server Manager
 - Active Directory Domain Services
 
 
-- DNS Server
-
-
 ### Promote Server to Domain Controller
 
 Select:
@@ -94,8 +91,6 @@ Set:
 # 🌐 Step 2 — Configure Static IP Address
 
 ## ROOTDC Configuration
-
-
 
 
 IP Address : 10.0.0.1
@@ -129,10 +124,6 @@ Install:
 ## Create DHCP Scope
 
 
-
-Scope Name : LAN_SCOPE
-
-
 Start IP   : 10.0.0.150
 
 
@@ -149,11 +140,11 @@ Gateway    : 10.0.0.1
 
 
 Domain Name: ravikumar.online
-```
+
 
 Authorize DHCP after installation.
 
----
+
 
 # 💻 Step 4 — Join Client PC to Domain
 
@@ -184,13 +175,14 @@ Restart PC after successful join.
 
 # 👥 Step 5 — Create Active Directory Users
 
+
 Open:
 
 
 Server Manager > Tools > Active Directory Users and Computers
 
 
----
+
 
 ## Example Organizational Units
 
