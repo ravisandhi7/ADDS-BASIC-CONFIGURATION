@@ -99,9 +99,6 @@ IP Address : 10.0.0.1
 Subnet Mask: 255.0.0.0
 
 
-Gateway    : 10.0.0.1
-
-
 # 📡 Step 3 — Configure DHCP Server
 
 ## Install DHCP Role
