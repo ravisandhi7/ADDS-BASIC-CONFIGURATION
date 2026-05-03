@@ -267,6 +267,7 @@ Add a domain controller to an existing domain
 
 ![IPCONFIG](screenshots/adc_to_rootdc/ENTERING_DSRM_PASSWORD.png)
 
+![IPCONFIG](screenshots/adc_to_rootdc/REPLICATION_FROM_SERVER1_TO_SERVER2.png)
 
 
 ![IPCONFIG](screenshots/adc_to_rootdc/LOCATION_OF_NTDS_SYSVOL.png)
