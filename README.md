@@ -99,16 +99,16 @@ Set:
 ```powershell
 
 
-IP Address : 10.0.0.5
+IP Address : 10.0.0.1
 
 
-Subnet Mask: 255.255.255.0
+Subnet Mask: 255.0.0.0
 
 
 Gateway    : 10.0.0.1
 
 
-DNS Server : 10.0.0.5
+
 ```
 
 ---
@@ -137,19 +137,19 @@ Install:
 Scope Name : LAN_SCOPE
 
 
-Start IP   : 10.0.0.100
+Start IP   : 10.0.0.150
 
 
-End IP     : 10.0.0.200
+End IP     : 10.0.0.165
 
 
-Subnet     : 255.255.255.0
+Subnet     : 255.0.0.0
 
 
 Gateway    : 10.0.0.1
 
 
-DNS Server : 10.0.0.5
+
 
 
 Domain Name: ravikumar.online
@@ -161,13 +161,7 @@ Authorize DHCP after installation.
 
 # 💻 Step 4 — Join Client PC to Domain
 
-## Configure DNS on Client
 
-```powershell
-DNS Server : 10.0.0.5
-```
-
----
 
 ## Join Domain
 
