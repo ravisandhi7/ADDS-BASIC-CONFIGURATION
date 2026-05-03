@@ -59,9 +59,8 @@ The lab includes:
 Open:
 
 
-```powershell
 Server Manager
-```
+
 
 ### Install Roles
 
@@ -76,15 +75,15 @@ Server Manager
 
 Select:
 
-```powershell
+
 Add a new forest
-```
+
 
 ### Domain Name
 
-```powershell
+
 ravikumar.online
-```
+
 
 Set:
 - DSRM Password
@@ -96,7 +95,7 @@ Set:
 
 ## ROOTDC Configuration
 
-```powershell
+
 
 
 IP Address : 10.0.0.1
@@ -108,9 +107,6 @@ Subnet Mask: 255.0.0.0
 Gateway    : 10.0.0.1
 
 
-
-```
-
 ---
 
 # 📡 Step 3 — Configure DHCP Server
@@ -119,9 +115,9 @@ Gateway    : 10.0.0.1
 
 Open:
 
-```powershell
+
 Add Roles and Features
-```
+
 
 Install:
 
@@ -132,7 +128,7 @@ Install:
 
 ## Create DHCP Scope
 
-```powershell
+
 
 Scope Name : LAN_SCOPE
 
@@ -167,18 +163,18 @@ Authorize DHCP after installation.
 
 Open:
 
-```powershell
+
 System Properties > Change Settings > Change
-```
+
 
 Select:
 - Domain
 
 Enter:
 
-```powershell
+
 ravikumar.online
-```
+
 
 Provide domain administrator credentials.
 
@@ -190,19 +186,18 @@ Restart PC after successful join.
 
 Open:
 
-```powershell
+
 Server Manager > Tools > Active Directory Users and Computers
-```
+
 
 ---
 
 ## Example Organizational Units
 
-```powershell
+
 HR
 IT
 Finance
-```
 
 ---
 
@@ -220,20 +215,18 @@ Finance
 
 ## Configure ADC Static IP
 
-```powershell
+
 IP Address : 10.0.0.2
 Subnet Mask: 255.0.0.0
 Gateway    : 10.0.0.1
-
-```
 
 ---
 
 ## Join ADC to Domain
 
-```powershell
+
 ravikumar.online
-```
+
 
 Restart the server.
 
@@ -247,9 +240,9 @@ Install:
 
 Select:
 
-```powershell
+
 Add a domain controller to an existing domain
-```
+
 
 ![IPCONFIG](screenshots/adc_to_rootdc/SERVER2_IN_WORKGROUP.png)
 
@@ -270,25 +263,14 @@ Add a domain controller to an existing domain
 ![IPCONFIG](screenshots/adc_to_rootdc/PREREQUISITE_CHECK_PASS.png)
 
 
-
-
-
-
 ![IPCONFIG](screenshots/adc_to_rootdc/SERVER2_ADDED_TO_DOMAIN.png)
-
-
-
-
-
-
-
 
 
 Domain:
 
-```powershell
+
 ravikumar.online
-```
+
 
 Enable:
 - DNS Server
@@ -302,10 +284,12 @@ Restart after promotion.
 
 ## Check Replication Summary
 
-```powershell
+
 repadmin /replsummary
-```
+
+
 ![IPCONFIG](screenshots/replication/USER_CREATED_IN_ADC.png)
+
 
 ![IPCONFIG](screenshots/replication/USER2-REPLICATED_TO_ROOTDC.png)
 
@@ -314,17 +298,17 @@ repadmin /replsummary
 
 ## Force Replication
 
-```powershell
+
 repadmin /syncall /AdeP
-```
+
 
 ---
 
 ## Verify Domain Controllers
 
-```powershell
+
 Get-ADDomainController -Filter *
-```
+
 
 Expected:
 - ROOTDC
@@ -336,9 +320,9 @@ Expected:
 
 Login using domain user:
 
-```powershell
+
 ravikumar\jdoe
-```
+
 
 Verify:
 - Domain login works
@@ -352,25 +336,24 @@ Verify:
 
 ## Check IP Configuration
 
-```powershell
+
 ipconfig /all
-```
+
 
 ---
 
 ## Verify DNS
 
-```powershell
+
 nslookup ravikumar.online
-```
+
 
 ---
 
 ## Test Connectivity
 
-```powershell
+
 ping 10.0.0.5
-```
 
 ---
 
