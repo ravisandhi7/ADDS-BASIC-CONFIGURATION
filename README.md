@@ -1,4 +1,4 @@
-![IPCONFIG](screenshots/basic/IPCONFIG_ALL.png)
+
 
 # Active Directory Lab Setup
 
@@ -299,28 +299,15 @@ Get-ADDomainController -Filter *
 
 
 Expected:
+
+
 - ROOTDC
+
 - ADC
-
----
-
-# 🔍 Step 9 — Verify Client Authentication
-
-Login using domain user:
-
-
-ravikumar\jdoe
-
-
-Verify:
-- Domain login works
-- DHCP assigns IP
-- DNS resolution works
-- Replication is successful
-
----
+ 
 
 # 🛠️ Useful Commands
+
 
 ## Check IP Configuration
 
@@ -328,32 +315,26 @@ Verify:
 ipconfig /all
 
 
----
-
 ## Verify DNS
 
 
 nslookup ravikumar.online
 
 
----
-
 ## Test Connectivity
 
 
-ping 10.0.0.5
+ping 10.0.0.160
 
----
 
 ## Force Group Policy Update
 
-```powershell
-gpupdate /force
-```
 
----
+gpupdate /force
+
 
 # 📚 Features Implemented
+
 
 - Active Directory Domain Services
 - DNS Server
@@ -364,18 +345,15 @@ gpupdate /force
 - Active Directory Replication
 - Centralized Authentication
 
----
 
 # 📖 Technologies Used
 
 - Windows Server
 - Active Directory
-- DNS
 - DHCP
 - PowerShell
 - VirtualBox
-
----
+  
 
 # 👨‍💻 Author
 
