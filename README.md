@@ -310,9 +310,9 @@ Restart after promotion.
 ```powershell
 repadmin /replsummary
 ```
-![IPCONFIG](screenshots/adc_to_rootdc/USER_CREATED_IN_ADC.png)
+![IPCONFIG](screenshots/replication/USER_CREATED_IN_ADC.png)
 
-![IPCONFIG](screenshots/adc_to_rootdc/USER2-REPLICATED_TO_ROOTDC.png)
+![IPCONFIG](screenshots/replication/USER2-REPLICATED_TO_ROOTDC.png)
 
 
 ---
